@@ -2,10 +2,10 @@
 
 // Summary And Greeting Section
 
-import easy from "./assets/lottie/easy.json"; // 依您專案的 lottie 資源配置
+// import easy from "./assets/lottie/easy.json"; // 已註解掉不存在的資源檔
 
 const settings = {
-  isSplash: true, // Change this to false if you don't want Splash screen.
+  isSplash: false, // 改為 false 避免因為找不到 lottie 動畫而卡住 Splash 畫面
 };
 
 // SEO Related settings
